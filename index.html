@@ -7,16 +7,89 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
     <div id="container">
         <div id="left">
-            <!-- hier komt de klok -->
+            <div id="clock">
+                <div class="hand hour" id="hour"></div>
+                <div class="hand minute" id="minute"></div>
+                <div class="hand second" id="second"></div>
+                  <!--#region main  -->
+                  <div class="dot hour-dot" style="transform: rotate(30deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(60deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(90deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(120deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(150deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(180deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(210deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(240deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(270deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(300deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(330deg) translate(90px);"></div>
+                  <div class="dot hour-dot" style="transform: rotate(360deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(6deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(12deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(18deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(24deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(36deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(42deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(48deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(54deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(66deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(72deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(78deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(84deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(96deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(102deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(108deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(114deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(126deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(132deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(138deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(144deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(156deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(162deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(168deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(174deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(186deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(192deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(198deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(204deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(216deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(222deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(228deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(234deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(246deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(252deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(258deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(264deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(276deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(282deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(288deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(294deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(306deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(312deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(318deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(324deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(336deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(342deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(348deg) translate(90px);"></div>
+                  <div class="dot minute-dot" style="transform: rotate(354deg) translate(90px);"></div>
+
+                <!--#endregion -->
+            </div>
         </div>
         <div id="middle">
-            <!-- Hier komt de reizigers info -->
+            
+                <!-- hier komt de station naam -->
+                <div id="station">
+                    <p id="tijd">tijd</p>
+                </div>
         </div>
         <div id="right">
             <!-- hier komt het spoor nummer -->
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
